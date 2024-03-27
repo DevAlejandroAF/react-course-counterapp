@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const App = function({ title }) {
+const App = ({ title }) => {
   return (
     <>
       <h1>{ title }</h1>
